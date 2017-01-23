@@ -1,5 +1,5 @@
 var express = require('express');
-var port = process.env.PORT || '5556'
+var port = process.env.PORT || '5556';
 var path = require('path');
 
 require('dotenv').config();
