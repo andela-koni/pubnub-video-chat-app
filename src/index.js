@@ -48,6 +48,7 @@ phone.debug(function(details) { console.log(details); });
 
 function makeCall(form) {
   phone.dial(form.number.value);
+  return false;
 }
 
 function end() {
