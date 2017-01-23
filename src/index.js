@@ -11,6 +11,7 @@ var phone = window.phone = PHONE({
   number        : UUID,
   publish_key   : 'pub-c-0d798431-d6a0-467a-abb9-65549fa4eea6',
   subscribe_key : 'sub-c-7421c9e4-de4f-11e6-b2ae-0619f8945a4f',
+  ssl: true
 });
 
 var ctrl = window.ctrl = CONTROLLER(phone);
